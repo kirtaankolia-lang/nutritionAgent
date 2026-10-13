@@ -1,0 +1,3 @@
+# This directory stores generated .md nutrition plans.
+# It is excluded from git tracking via .gitignore.
+# The directory itself is tracked so Flask can write to it at runtime.

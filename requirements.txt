@@ -1,0 +1,17 @@
+# ─────────────────────────────────────────────────────────────
+# NutriGuide AI — Python Dependencies
+# IBM Granite Agentic Nutrition Planner
+# Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Web framework
+flask>=3.0.0
+
+# Cross-Origin Resource Sharing support
+flask-cors>=4.0.0
+
+# IBM watsonx.ai SDK — IBM Granite LLM integration
+ibm-watsonx-ai>=0.2.6
+
+# Environment variable management (.env file support)
+python-dotenv>=1.0.0
