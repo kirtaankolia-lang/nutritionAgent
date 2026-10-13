@@ -174,7 +174,7 @@ def apply_guardrails(text: str) -> dict:
             "safe": False,
             "flagged_terms": flagged,
             "message": (
-                "⚠️ The generated response contained potentially harmful content and was blocked. "
+                "[BLOCKED] The generated response contained potentially harmful content and was blocked. "
                 "Please consult a registered dietitian or healthcare professional directly."
             ),
         }
